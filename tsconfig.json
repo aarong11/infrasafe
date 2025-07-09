@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@webauthn/*": ["webauthn-server/src/*"],
+      "@contracts/*": ["typechain-types/*"],
+      "@server/*": ["server/*"]
+    }
+  },
+  "include": [
+    "./scripts",
+    "./test",
+    "./server",
+    "./webauthn-server",
+    "./typechain-types"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

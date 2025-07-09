@@ -1,0 +1,9 @@
+{
+  "watch": ["webauthn-server/src"],
+  "ext": "ts,json",
+  "ignore": ["webauthn-server/src/**/*.test.ts", "webauthn-server/__tests__/**/*"],
+  "exec": "ts-node webauthn-server/index.ts",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
