@@ -12,7 +12,7 @@ To obtain a commercial license, contact: [contact@infrasim.org](mailto:contact@i
 
 ![InfraSafe Logo](https://img.shields.io/badge/InfraSafe-v1.0.0-blue)
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.22-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://img.shields.io/badge/license-GPL-blue)
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
 
 ## 🎯 Overview
